@@ -14,8 +14,11 @@
 const btn_submit = document.querySelector("div button");
 const price = 0.21;
 
-document.querySelector("container form button").addEventListener("click",function(){
+document.querySelector(".container form button").addEventListener("click",function(){
+    //event.preventDefault();
     const firstname = document.getElementById("input_firstname").value;
-    
-})
+    const lastname = document.getElementById("input_lastname").value;
+
+    document.getElementById("output").textContent = `${firstname} ${lastname}`;
+});
 
