@@ -1,0 +1,18 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+#debug {border: 1px dashed black;}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D03FD5;
+}
+
+.container{
+    
+}
